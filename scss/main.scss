@@ -1,0 +1,23 @@
+@import "./base/reset";
+@import "./base/variables";
+@import "./base/base";
+@import "./base/card-set-calc";
+
+@import "./utils/mixins";
+@import "./utils/placeholders";
+@import "./utils/visibully-hidden";
+
+@import "./components/contact";
+@import "./components/customers";
+@import "./components/feautures";
+@import "./components/footer";
+@import "./components/header";
+@import "./components/hero";
+@import "./components/nav";
+@import "./components/portfolio";
+@import "./components/team";
+@import "./components/window-modal";
+@import "./components/works";
+
+@import "./layout/grids";
+

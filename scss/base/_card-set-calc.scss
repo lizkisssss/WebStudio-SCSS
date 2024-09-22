@@ -1,0 +1,14 @@
+.card__set {
+    display: flex;
+    gap: $indent;
+  }
+  
+  .card__set-item {
+    flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / (var(--items)));
+  }
+
+.card__set__portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $indent;
+}
