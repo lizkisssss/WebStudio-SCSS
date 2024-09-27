@@ -30,3 +30,21 @@ header {
   .header__logo--black {
     color: $logo-black-color;
   }
+
+  .header__nav .menu__toggle {
+
+    display: flex;
+   align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+
+
+   @media (min-width: 768px) {
+        display: none;
+   }
+}

@@ -123,6 +123,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   gap: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .card__set-item {
@@ -591,6 +596,12 @@ footer {
   }
 }
 
+@media (max-width: 479px) {
+  .subscription__field {
+    width: 100%;
+  }
+}
+
 .subscription__btn {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -643,6 +654,29 @@ header {
 
 .header__logo--black {
   color: #000000;
+}
+
+.header__nav .menu__toggle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+@media (min-width: 768px) {
+  .header__nav .menu__toggle {
+    display: none;
+  }
 }
 
 .hero {

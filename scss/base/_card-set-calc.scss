@@ -1,6 +1,8 @@
 .card__set {
     display: flex;
     gap: $indent;
+    justify-content: center;
+    flex-wrap: wrap;
   }
   
   .card__set-item {

@@ -151,6 +151,12 @@ footer {
       width: 358px;
     }
   }
+
+  .subscription__field {
+    @media (max-width: 479px) {
+        width: 100%;
+      }
+}
   
   .subscription__btn {
     @extend %button;
