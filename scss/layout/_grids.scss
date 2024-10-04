@@ -8,17 +8,14 @@ $breakpoints: (
   margin-right: auto;
   margin-left: auto;
 
-// phone screen
 @media screen and (min-width: 480px) {
   width: 480px;
 }
 
-// tablet screen
 @media screen and (min-width: 768px) {
   width: 768px;
 }
 
-// desktop screen
 @media screen and (min-width: 1200px) {
   width: 1200px;
 }
