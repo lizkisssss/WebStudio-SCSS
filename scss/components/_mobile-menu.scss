@@ -6,16 +6,12 @@
     height: 40px;
     margin-left: auto;
     padding: 0;
-  
     color: $primari-text-color;
     background-color: transparent;
     border: none;
     outline: none;
-  
     transition: color $anim-fast;
-  
     cursor: pointer;
-  
     &:hover,
     &:focus {
       color: $accent-color;
@@ -91,6 +87,9 @@
     line-height: calc(40 / 34);
     letter-spacing: 0.02em;
     color: $accent-color;
+    @media screen and (max-width: 479px) {
+            font-size: 7vw;
+    }
   }
   
   .menu__item--mail {
